@@ -7,7 +7,6 @@ setInterval(function() {
     let s = date.getSeconds();
     let h = date.getHours();
     let m = date.getMinutes();
-    hour.textContent = h;
     if (m < 10) {
         min.textContent = "0" + m;
     } else {
